@@ -13,7 +13,8 @@ function flipCard() {
     hasFlippedCard = true;
     firstCard = this
     return
-  } 
+  }
+  if (this === firstCard) return
   hasFlippedCard = false;
   secondCard = this;
   checkMatch();
