@@ -22,8 +22,8 @@ function flipCard() {
 function checkMatch() {
   if (firstCard.dataset.pokemon === secondCard.dataset.pokemon) {
     // Match card
-    firstCard.removeEventListener('clicl', flipCard)
-    secondCard.removeEventListener('clicl', flipCard)
+    firstCard.removeEventListener('click', flipCard)
+    secondCard.removeEventListener('click', flipCard)
     return
   }
 
